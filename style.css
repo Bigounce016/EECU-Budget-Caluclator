@@ -46,13 +46,17 @@ footer{
     width: 100%;
     bottom: 0;
 }
-
+ 
 .dropdown {
-  display: flex;
-  justify-content: center;
-  width: 611px;
-  height: 66px
+    display: flex;
+    justify-content: center;
 }
+  select {
+    width: 100%;      /* Fills the entire width of the red border container */
+    max-width: 500px; /* Prevents it from getting too huge on desktop */
+    height: 40px;     /* Sets a specific vertical size */
+    padding: 5px 10px; /* Better than 'height' for vertical centering of text */
+  }
 
 .Box {
     border: 2px solid black; /* Creates the box border: width, style, color */
