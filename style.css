@@ -46,3 +46,18 @@ footer{
     width: 100%;
     bottom: 0;
 }
+
+.dropdown {
+  display: flex;
+  justify-content: center;
+  width: 611px;
+  height: 66px
+}
+
+.Box {
+    border: 2px solid black; /* Creates the box border: width, style, color */
+    padding: 10px;          /* Space between the text and the border */
+    margin: 15px;           /* Space outside the border (optional) */
+    width: 300px;           /* Optional: sets a fixed width */
+    background-color: #f0f0f0; /* Optional: adds a background color */
+}
